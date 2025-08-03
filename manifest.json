@@ -15,5 +15,11 @@
     "16": "icons/link16.png",
     "48": "icons/link48.png",
     "128": "icons/link128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "reddit-ai-link-remover@ray16.dev",
+        "strict_min_version": "109.0"
+    }
   }
 }
