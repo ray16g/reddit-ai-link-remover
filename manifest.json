@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Reddit AI Link Remover",
+  "version": "1.0",
+  "description": "Removes Reddit AI placed hyperlinks.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.reddit.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "16": "icons/link16.png",
+    "48": "icons/link48.png",
+    "128": "icons/link128.png"
+  }
+}
