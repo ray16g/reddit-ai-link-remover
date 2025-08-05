@@ -3,7 +3,7 @@
   "name": "Reddit AI Link Remover",
   "version": "1.0",
   "description": "Removes Reddit AI placed hyperlinks.",
-  "permissions": ["scripting"],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": ["*://*.reddit.com/*"],

@@ -1,6 +1,6 @@
 const observer = new MutationObserver(() => {
 
-  const telemetryTags = document.querySelectorAll("search-telemetry-tracker");
+  const telemetryTags = document.querySelectorAll('search-telemetry-tracker[view-events="post_detail/view/highlight"]');
 
   telemetryTags.forEach(tag => {
     const anchor = tag.querySelector("a");
